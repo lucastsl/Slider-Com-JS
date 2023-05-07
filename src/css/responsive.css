@@ -1,0 +1,62 @@
+/* SO PRECISO MUDAR APARTI DO 1024PX */
+@media ( max-width: 900px){
+    .btn.btn1{
+        margin-left: 50px;
+    }
+    .informacoes{
+        margin: 0 10px;
+    }
+    .btn.btn1{
+        margin-left: 20px;
+    }
+    
+}
+@media ( max-width: 768px){
+
+    .informacoes{
+        width: 450px;
+        padding: 20px 25px;
+        margin-left: 30px;
+    }
+    .informacoes .titulo{
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .informacoes .descricao{
+        line-height: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .informacoes .link{
+        font-size: 28px;
+    }
+}
+@media ( max-width: 420px){
+    .btn.btn1{
+        margin-left: 0px;
+    }
+
+    .informacoes{
+        width: 340px;
+        padding:20px;
+        margin-left: 8px;
+    }
+    .informacoes .titulo{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .informacoes .descricao{
+        font-size: 22px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .informacoes .link{
+        font-size: 22px;
+    }
+    .btn.btn2{
+        margin-right: 0px;
+    }
+}
